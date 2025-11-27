@@ -159,40 +159,22 @@
         <p>2025年11月9日 ～ 2025年11月12日</p>
     </div>
 
-    <!-- 更新のお知らせ -->
-    <div style="background: #ffe0e0; border: 3px solid #dc3545; border-radius: 10px; padding: 20px; margin-bottom: 20px;">
-        <p style="font-size: 1.1em; text-align: center; margin-bottom: 10px;">
-            <strong>🔔 重要なお知らせ（2025年11月27日 15:00 更新）</strong>
-        </p>
-        <p style="text-align: center; margin: 0;">
-            一括登録シートと拡張機能を更新しました。<br>
-            <strong style="color: #dc3545;">以前のバージョンではシッピングポリシーの判定にエラーが出ます。</strong><br>
-            必ずこちらから最新版をダウンロードしてください。
-        </p>
-    </div>
-
-    <div class="important-box" style="background: #ffe6e6; border-color: #dc3545;">
-        <h2 style="color: #721c24;">🆕 一括登録シート Ver.34.2（最新版）</h2>
-        <div class="main-point" style="background: white; border-left-color: #dc3545;">
-            <strong>最新版のスプレッドシートはこちら:</strong><br>
-            <a href="https://docs.google.com/spreadsheets/d/1f3mR26TJypvTMFzRjmZi17Zi9eAdz7wphY0bJApJo0s/edit?usp=sharing"
+    <div class="important-box" style="background: #d1ecf1; border-color: #17a2b8;">
+        <h2 style="color: #0c5460;">📊 一括シートApps スプレッドシート</h2>
+        <div class="main-point" style="background: white; border-left-color: #17a2b8;">
+            <strong>以下のリンクをクリックしてスプレッドシートを開いてください:</strong><br>
+            <a href="https://docs.google.com/spreadsheets/d/19jAZO7exNJw-Sw8lyLFllIAirkCGu7MMdJNExoohTlA/edit?usp=sharing" 
                target="_blank"
-               style="display: block; width: 100%; padding: 15px; margin-top: 10px; background: #dc3545; color: white; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px; font-weight: bold; transition: background 0.3s;"
-               onmouseover="this.style.background='#c82333'"
-               onmouseout="this.style.background='#dc3545'">
-                🌟 一括登録シート Ver.34.2 を開く
+               style="display: block; width: 100%; padding: 15px; margin-top: 10px; background: #17a2b8; color: white; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px; font-weight: bold; transition: background 0.3s;"
+               onmouseover="this.style.background='#138496'"
+               onmouseout="this.style.background='#17a2b8'">
+                📊 一括シートAppsを開く
             </a>
-            <p style="margin-top: 15px; font-size: 0.95em;">
-                <strong>✨ Ver.34.2の主な改善点:</strong>
-            </p>
-            <div style="margin-top: 10px; padding: 15px; background: #f8f9fa; border-radius: 5px; border-left: 4px solid #dc3545;">
-                <ul style="margin-left: 20px; line-height: 1.8;">
-                    <li><strong>関税率39％に完全対応</strong> - 新しい関税率に対応した正確な計算が可能になりました</li>
-                    <li><strong>為替レート取得頻度の最適化</strong> - 1時間に1回の取得に変更し、為替変動による再計算頻度を削減しました</li>
-                </ul>
-            </div>
             <p style="margin-top: 10px; font-size: 0.9em; color: #6c757d;">
                 ※ クリックすると新しいタブでスプレッドシートが開きます
+            </p>
+            <p style="margin-top: 5px; padding: 10px; background: #fff3cd; border-left: 4px solid #ffc107; font-size: 0.95em; color: #856404;">
+                <strong>⚠️ 重要:</strong> このシートは「コピーを作成」してご使用ください。元のシートを直接編集しないようお願いします。
             </p>
         </div>
     </div>
@@ -201,12 +183,12 @@
         <h2 style="color: #155724;">🚀 Universal Scraper Chrome拡張機能</h2>
         <div class="main-point" style="background: white; border-left-color: #28a745;">
             <strong>以下のボタンから拡張機能をダウンロードしてください:</strong><br>
-            <a href="https://github.com/naokijodan/universal-scraper/releases/download/v1.1.2/universal-scraper.zip"
+            <a href="https://github.com/naokijodan/universal-scraper/releases/download/v1.0.0/universal-scraper-v1.0.0.zip" 
                download
                style="display: block; width: 100%; padding: 15px; margin-top: 10px; background: #28a745; color: white; text-align: center; text-decoration: none; border-radius: 5px; font-size: 16px; font-weight: bold; transition: background 0.3s;"
                onmouseover="this.style.background='#218838'"
                onmouseout="this.style.background='#28a745'">
-                📥 Universal Scraper をダウンロード (ZIP) - 🆕 最新版! (Ver.1.1.3 / 2025年11月21日)
+                📥 Universal Scraper v1.0.0 をダウンロード (ZIP)
             </a>
             <p style="margin-top: 15px; font-size: 0.95em;">
                 <strong>📖 インストール手順:</strong>
@@ -342,11 +324,6 @@
             <h3>Import_Policiesシートに情報を追加しました</h3>
             <p>ポリシー（配送ルール）の情報を詳しく保存できるようにしました。配送方法の自動選択が速くなります。</p>
         </div>
-
-        <div class="feature-box">
-            <h3>Universal Scraper: Yahoo!ショッピングの仕入れ先名を修正しました</h3>
-            <p>Yahoo!ショッピングからインポートシートへ出力する際、仕入れ先が「yahooshopping」として出力されていた問題を修正しました。「yahoo_shopping」（アンダースコア付き）に変更することで、EAGLEへの一括登録が正常にできるようになりました。</p>
-        </div>
     </div>
 
     <div class="screenshot">
@@ -402,7 +379,7 @@
 
     <footer>
         <p><strong>一括シートApps - 改修報告書</strong></p>
-        <p>最終更新日: 2025年11月21日</p>
+        <p>作成日: 2025年11月12日</p>
     </footer>
 </body>
 </html>
